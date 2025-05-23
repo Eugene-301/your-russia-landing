@@ -1,0 +1,8 @@
+@use "functions" as *;
+
+@mixin font($fontFamily: "sans-serif", $fontSizeMin: 16, $fontSizeMax: 32, $fontWeight: 400, $color: #6a6a6a6a) {
+    font-family: $fontFamily;
+    font-size: fluid($fontSizeMax, $fontSizeMin);
+    font-weight: $fontWeight;
+    color: $color
+};

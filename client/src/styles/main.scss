@@ -1,0 +1,11 @@
+@use 'normalize';
+@use 'variables';
+@use "fonts";
+@use "functions" as *;
+@use "mixins" as *;
+
+h1 {
+    @include font("Gilroy", 16, 48, 600)
+    
+}
+
